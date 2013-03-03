@@ -19,7 +19,7 @@ def main():
                 print(line)
 
 def check_pkg(pkgname):
-    dependers = subprocess.check_output(["pkg_info", "-r", pkgname])
+    dependers = subprocess.check_output(["/usr/sbin/pkg_info", "-r", pkgname])
     checking = False
     for line in dependers.split("\n"):
         if line == "Full required by list:":
