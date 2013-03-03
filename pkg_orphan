@@ -1,4 +1,7 @@
 #!/usr/bin/env python
+# Copyright (c) 2013, Luke Maurits <luke@maurits.id.au>
+# Published under the terms of the BSD 3-Clause License
+# (see LICENSE file or http://opensource.org/licenses/BSD-3-Clause)
 
 import subprocess
 import sys
